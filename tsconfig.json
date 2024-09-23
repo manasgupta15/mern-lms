@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",             // Or a different target depending on your requirements
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "strict": true,                 // Recommended for strict typing
+      "esModuleInterop": true,        // For compatibility with CommonJS modules
+      "skipLibCheck": true,           // To avoid checking .d.ts files for faster compilation
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",             // Output directory for compiled files
+      "rootDir": "./src"              // Source directory
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
